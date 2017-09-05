@@ -1,0 +1,11 @@
+body{
+    background: #eee;
+}
+
+input::placeholder {
+    color: #828282;
+  }
+
+  .collection h5{
+      background: #4F92FF;
+  }
