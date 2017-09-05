@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Weight Coverter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6 mr-auto ml-auto  ">
+                <h1 class="display-4  text-center mb-3">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds">
+
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card bg-primary mb-2">
+                            <div class="card-body">
+                            <h4  class="card-title" >Grams:</h4>
+                            <div class="card-text" id="gramsOutput">0.00</div>
+                        </div>
+                    </div>
+                    <div class="card  bg-success mb-2">
+                        <div class="card-body">
+                            <h4 class="card-title">Kilograms:</h4>
+                            <div class="card-text" id="kgOutput">0.00</div>
+                        </div>
+                    </div>
+                    <div class="card  bg-danger mb-2">
+                        <div class="card-body">
+                            <h4 class="card-title">Ozas:</h4>
+                            <div class="card-text"  id= "ozOutput" >0.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+
+</html>
